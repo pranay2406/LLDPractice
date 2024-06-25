@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffe27eba-bc9b-4576-8211-5824f0d9c342" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalerPractice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lombok-1.18.30-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lombok-1.18.30-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lombok-1.18.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/CustomObjectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/SecondRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/SimpleRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BeforeSOLID/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/BeforeSOLID/Marker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/LSP/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/OCP/DataBaseSaveDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/OCP/FileSaveDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/OCP/InvoiceBill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/OCP/InvoiceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/OCP/InvoicePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/SRP/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/SRP/InvoiceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/SRP/InvoicePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Main.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2dKR8MUmnm6FL3s7tkrYuQTgs5b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CustomObjectSort.executor": "Run",
+    "Application.GloveShop.executor": "Run",
+    "Application.Interface_Abstract_Class.Main.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PhoneNumber.executor": "Run",
+    "Application.Runner.executor": "Run",
+    "Application.Running.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Testing.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Array" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffe27eba-bc9b-4576-8211-5824f0d9c342" name="Changes" comment="" />
+      <created>1709754623835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709754623835</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Interface_Abstract_Class/PhoneNumber.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Interface_Abstract_Class/PhoneNumber.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
