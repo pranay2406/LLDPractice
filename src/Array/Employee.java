@@ -1,24 +1,45 @@
 package Array;
-
-import lombok.AllArgsConstructor ;
-import lombok.ToString;
-
-@ToString
-@AllArgsConstructor
-public class Employee implements Comparable<Employee>
-{
-    String Name;
-    int age;
-    int salary;
+public class Employee extends User {
 
 
-    @Override
-    public int compareTo(Employee employee) {
 
-         if(age==employee.age)
-         {
-             return salary-employee.salary;
-         }
-         return age-employee.age;
+
+    // TODO: Implement an Employee class which is also a subclass of User with the following additional properties:
+    //employeeId: representing the unique identifier of the employee.
+    //department: representing the department in which the employee works.
+        String department;
+        int employeeId;
+
+    public Employee(String name,String email, int id, String department)
+    {
+        super(name,email);
+        super.username=name;
+        super.email=email;
+        this.employeeId=id;
+        this.department=department;
     }
+    public static void main(String[] args) {
+        Employee employee = new Employee("john_smith", "john.smith@example.com", 201, "Human Resources");
+        System.out.println("Username: " + employee.getUsername());
+        System.out.println("Email: " + employee.getEmail());
+        System.out.println("Employee ID: " + employee.getEmployeeId());
+        System.out.println("Department: " + employee.getDepartment());
+        employee.displayInfo();
+    }
+
+    public String getDepartment() {
+       return this.department;
+    }
+
+    public int getEmployeeId() {
+        return this.employeeId;
+    }
+
+      @Override
+      public void displayInfo() {
+        super.displayInfo();
+          System.out.println("employeeId: " + employeeId);
+          System.out.println("department: " + department);
+
+      }
 }

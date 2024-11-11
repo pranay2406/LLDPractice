@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffe27eba-bc9b-4576-8211-5824f0d9c342" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Singleton/SingletonAdv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/Singleton/SingletonAdv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/NumbersFrom1to100/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/NumbersFrom1to100/NumberPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/CustomObjectSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +48,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.CustomObjectSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Employee.executor&quot;: &quot;Run&quot;,
     &quot;Application.GloveShop.executor&quot;: &quot;Run&quot;,
     &quot;Application.Interface_Abstract_Class.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
@@ -47,8 +58,10 @@
     &quot;Application.PhoneNumber.executor&quot;: &quot;Run&quot;,
     &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
     &quot;Application.Running.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
     &quot;Application.Test.executor&quot;: &quot;Run&quot;,
     &quot;Application.Testing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.User.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
@@ -58,7 +71,14 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pranay/Developer/Workspace/IntelliJ-workspace/ScalerPractice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -66,7 +86,20 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.NumbersFrom1to100.Client" />
+      <module name="ScalerPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiThreading.NumbersFrom1to100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPattern.Singleton.Main" />
       <module name="ScalerPractice" />
@@ -80,11 +113,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.Singleton.Test" />
+      <module name="ScalerPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPattern.Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,8 +150,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709754623835</updated>
+      <workItem from="1720384718122" duration="99000" />
+      <workItem from="1720433326268" duration="5000" />
+      <workItem from="1728998316212" duration="3034000" />
+      <workItem from="1729327824652" duration="34000" />
+      <workItem from="1729327863402" duration="11464000" />
+      <workItem from="1729694075315" duration="2244000" />
+      <workItem from="1729882015332" duration="2629000" />
+      <workItem from="1731123219763" duration="18000" />
+      <workItem from="1731316509497" duration="38000" />
+      <workItem from="1731316555847" duration="1143000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
