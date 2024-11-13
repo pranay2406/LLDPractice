@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffe27eba-bc9b-4576-8211-5824f0d9c342" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/MerSort/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/MerSort/MergeSorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiThreading/NumbersFrom1to100/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiThreading/NumbersFrom1to100/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiThreading/MerSort/MergeSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiThreading/MerSort/MergeSorter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +183,7 @@
       <workItem from="1731316509497" duration="38000" />
       <workItem from="1731316555847" duration="9027000" />
       <workItem from="1731422317093" duration="76000" />
-      <workItem from="1731422397852" duration="1704000" />
+      <workItem from="1731422397852" duration="3671000" />
     </task>
     <servers />
   </component>

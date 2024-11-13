@@ -39,6 +39,7 @@ public class MergeSorter implements Callable<List<Integer>>{
 
 
         Future<List<Integer>> sortedLeftListFuture  = executorService.submit(leftMergeSorter);
+
         Future<List<Integer>> sortedRightListFuture  = executorService.submit(rightMergeSorter);
 
         //Merge Left and Right sorted parts.
