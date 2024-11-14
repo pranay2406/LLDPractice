@@ -52,6 +52,7 @@ public class MergeSorter implements Callable<List<Integer>>{
         List<Integer> sortedRightList = sortedRightListFuture.get(); // Might be a blocking call.
 
 
+
         while (i < sortedLeftList.size() && j < sortedRightList.size()) {
             if (sortedLeftList.get(i) <= sortedRightList.get(j)) {
                 sortedList.add(sortedLeftList.get(i));
