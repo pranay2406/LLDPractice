@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffe27eba-bc9b-4576-8211-5824f0d9c342" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/ProducerConsumer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/ProducerConsumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/ProducerConsumer/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiThreading/MerSort/MergeSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiThreading/MerSort/MergeSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,7 @@
     &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MultiThreading.MerSort.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiThreading.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.PhoneNumber.executor&quot;: &quot;Run&quot;,
     &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
     &quot;Application.Running.executor&quot;: &quot;Run&quot;,
@@ -80,7 +84,7 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiThreading.MerSort.Client">
+  <component name="RunManager" selected="Application.MultiThreading.ProducerConsumer.Client">
     <configuration name="Array.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.Test" />
       <module name="ScalerPractice" />
@@ -107,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Singleton.Main" />
+    <configuration name="MultiThreading.MerSort.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.MerSort.Client" />
       <module name="ScalerPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.Singleton.*" />
+          <option name="PATTERN" value="MultiThreading.MerSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreading.MerSort.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreading.MerSort.Client" />
+    <configuration name="MultiThreading.ProducerConsumer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.ProducerConsumer.Client" />
       <module name="ScalerPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MultiThreading.MerSort.*" />
+          <option name="PATTERN" value="MultiThreading.ProducerConsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiThreading.ProducerConsumer.Client" />
         <item itemvalue="Application.MultiThreading.MerSort.Client" />
         <item itemvalue="Application.Array.Test" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +190,10 @@
       <workItem from="1731422397852" duration="6377000" />
       <workItem from="1731518509722" duration="13000" />
       <workItem from="1731518527924" duration="1168000" />
+      <workItem from="1731617711890" duration="690000" />
+      <workItem from="1732132418401" duration="3397000" />
+      <workItem from="1732742573452" duration="1560000" />
+      <workItem from="1732905850442" duration="728000" />
     </task>
     <servers />
   </component>
@@ -205,6 +213,10 @@
           <line>12</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
