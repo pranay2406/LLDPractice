@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffe27eba-bc9b-4576-8211-5824f0d9c342" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/ProducerConsumer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/ProducerConsumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/ProducerConsumer/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/Collections/findMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/Generics/PrintArrayElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8/Stream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pranay2406&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pranay2406/LLDPractice.git&quot;,
+    &quot;accountId&quot;: &quot;210eff9f-5188-49aa-9621-8ab3946f7598&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Main.java" root0="SKIP_INSPECTION" />
   </component>
@@ -54,12 +65,15 @@
     &quot;Application.MultiThreading.MerSort.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.MultiThreading.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.PhoneNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintArrayElements.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
     &quot;Application.Running.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stream.executor&quot;: &quot;Run&quot;,
     &quot;Application.Student.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Testing.executor&quot;: &quot;Run&quot;,
     &quot;Application.User.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findMax.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
@@ -84,46 +98,7 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiThreading.ProducerConsumer.Client">
-    <configuration name="Array.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Test" />
-      <module name="ScalerPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreading.NumbersFrom1to100.Client" />
-      <module name="ScalerPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MultiThreading.NumbersFrom1to100.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiThreading.MerSort.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreading.MerSort.Client" />
-      <module name="ScalerPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MultiThreading.MerSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Stream">
     <configuration name="MultiThreading.ProducerConsumer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MultiThreading.ProducerConsumer.Client" />
       <module name="ScalerPractice" />
@@ -137,12 +112,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Singleton.Test" />
+    <configuration name="PrintArrayElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.Generics.PrintArrayElements" />
       <module name="ScalerPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.Singleton.*" />
+          <option name="PATTERN" value="Java.Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8.Stream" />
+      <module name="ScalerPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="ScalerPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.Collections.findMax" />
+      <module name="ScalerPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultiThreading.ProducerConsumer.Client" />
-        <item itemvalue="Application.MultiThreading.MerSort.Client" />
-        <item itemvalue="Application.Array.Test" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Stream" />
+        <item itemvalue="Application.findMax" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.PrintArrayElements" />
+        <item itemvalue="Application.MultiThreading.ProducerConsumer.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +202,11 @@
       <workItem from="1732132418401" duration="3397000" />
       <workItem from="1732742573452" duration="1560000" />
       <workItem from="1732905850442" duration="728000" />
+      <workItem from="1733903106162" duration="1386000" />
+      <workItem from="1733944498691" duration="2072000" />
+      <workItem from="1734092689918" duration="4309000" />
+      <workItem from="1736020168622" duration="2989000" />
+      <workItem from="1736102988710" duration="4161000" />
     </task>
     <servers />
   </component>
