@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffe27eba-bc9b-4576-8211-5824f0d9c342" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/SampleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Array.Test.executor": "Run",
-    "Application.Client.executor": "Run",
+    "Application.Client.executor": "Debug",
     "Application.CustomObjectSort.executor": "Run",
     "Application.Employee.executor": "Run",
     "Application.GloveShop.executor": "Run",
@@ -68,6 +68,7 @@
     "Application.PrintArrayElements.executor": "Debug",
     "Application.Runner.executor": "Run",
     "Application.Running.executor": "Run",
+    "Application.SampleClass.executor": "Run",
     "Application.Stream.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.Test.executor": "Debug",
@@ -98,7 +99,7 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Client" />
       <module name="ScalerPractice" />
@@ -112,8 +113,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ScalerPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Main" />
+      <module name="ScalerPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExceptionHandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.SampleClass" />
       <module name="ScalerPractice" />
       <extension name="coverage">
         <pattern>
@@ -138,33 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="ScalerPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="findMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.Collections.findMax" />
-      <module name="ScalerPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java.Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.SampleClass" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Stream" />
-        <item itemvalue="Application.findMax" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +207,7 @@
       <workItem from="1733944498691" duration="2072000" />
       <workItem from="1734092689918" duration="4309000" />
       <workItem from="1736020168622" duration="2989000" />
-      <workItem from="1736102988710" duration="8030000" />
+      <workItem from="1736102988710" duration="15169000" />
     </task>
     <servers />
   </component>
