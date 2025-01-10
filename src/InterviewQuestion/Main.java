@@ -4,8 +4,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.Arrays;
-import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,30 +13,50 @@ public class Main {
             // Create URL object
             URL url = new URL("https://coderbyte.com/api/challenges/json/age-counting");
 
-            // Open connection and read response using Java 8 Stream API
+            // Open connection and read response
             URLConnection connection = url.openConnection();
-            String response = new BufferedReader(new InputStreamReader(connection.getInputStream()))
-                    .lines().collect(Collectors.joining());
+            BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            StringBuilder responseBuilder = new StringBuilder();
+            String line;
 
-            // Extract data string from JSON response
+            // Read the entire response
+            while ((line = reader.readLine()) != null) {
+                responseBuilder.append(line);
+            }
+            reader.close();
+
+            String response = responseBuilder.toString();
+
+            // Extract the data string from the JSON response
             String dataString = response.split("\"data\":\"")[1].split("\"}")[0];
 
-            // Split the data string into individual items and filter using Java 8 Streams
-            long varOcg = Arrays.stream(dataString.split(", "))
-                    .filter(item -> item.contains("age="))
-                    .mapToInt(item -> Integer.parseInt(item.split("age=")[1]))
-                    .filter(age -> age >= 50)
-                    .count();
+            // Initialize count variable
+            int varOcg = 0;
+
+            // Split the data string into individual items and process each one
+            String[] items = dataString.split(", ");
+            for (String item : items) {
+                if (item.contains("age=")) {
+                    // Extract the age value from the string
+                    String ageString = item.split("age=")[1];
+                    int age = Integer.parseInt(ageString);
+
+                    // Check if the age is greater than or equal to 50
+                    if (age >= 50) {
+                        varOcg++;
+                    }
+                }
+            }
 
             // __define-ocg__: The variable `varOcg` stores the count of items with age >= 50
 
-
             // Combine result with ChallengeToken in correct order
             String challengeToken = "umobjnl9d3";
-            String varFiltersCg = varOcg + ":" + new StringBuilder(challengeToken).reverse().toString();
+            StringBuilder varFiltersCg = new StringBuilder();
+            varFiltersCg.append(varOcg).append(":").append(new StringBuilder(challengeToken).reverse());
 
             // Print the final output with ChallengeToken
-            System.out.println(varFiltersCg);
+            System.out.println(varFiltersCg.toString());
 
         } catch (Exception e) {
             e.printStackTrace();

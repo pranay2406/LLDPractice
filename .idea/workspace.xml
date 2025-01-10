@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffe27eba-bc9b-4576-8211-5824f0d9c342" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/SampleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +97,7 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.InterviewQuestion.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Client" />
       <module name="ScalerPractice" />
@@ -113,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="InterviewQuestion.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewQuestion.Main" />
       <module name="ScalerPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,7 +159,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.InterviewQuestion.Main" />
         <item itemvalue="Application.SampleClass" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
@@ -207,7 +205,7 @@
       <workItem from="1733944498691" duration="2072000" />
       <workItem from="1734092689918" duration="4309000" />
       <workItem from="1736020168622" duration="2989000" />
-      <workItem from="1736102988710" duration="15169000" />
+      <workItem from="1736102988710" duration="17885000" />
     </task>
     <servers />
   </component>
